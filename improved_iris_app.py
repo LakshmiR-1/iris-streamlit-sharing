@@ -50,7 +50,8 @@ def prediction(model, sepal_length, sepal_width, petal_length, petal_width):
   		return "Iris-versicolor"
 
 # Add title widget
-st.sidebar.title("Iris Flower Species Prediction App")      
+st.sidebar.title("Iris Flower Species Prediction App")   
+st.sidebar.title("- Lakshmi R") 
 
 # Add 4 sliders and store the value returned by them in 4 separate variables. 
 s_len = st.sidebar.slider("Sepal Length", float(iris_df["SepalLengthCm"].min()), float(iris_df["SepalLengthCm"].max()))
